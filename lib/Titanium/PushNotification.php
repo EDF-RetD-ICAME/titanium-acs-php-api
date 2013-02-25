@@ -55,7 +55,7 @@ class PushNotification extends Base
     ));
    
     $response = $this->post($url, $parameters);
-    
+
     return $response->meta->code == 200;
   }
   
